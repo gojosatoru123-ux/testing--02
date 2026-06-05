@@ -1,0 +1,956 @@
+[
+  {
+    "slug": "what-is-backend",
+    "title": "What is a Backend Server?",
+    "description": "An intuitive and complete guide to understanding backend servers, their responsibilities, and why modern applications depend on them.",
+    "category": "Backend Design",
+    "order": 1,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "what-is-http",
+    "title": "What is HTTP?",
+    "description": "A complete beginner-to-advanced guide to HTTP, the core protocol powering communication between browsers and backend servers.",
+    "category": "Backend Design",
+    "order": 2,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "backend-routing",
+    "title": "Backend Routing",
+    "description": "Complete beginner-to-advanced guide explaining how backend routing works and how requests reach the correct server logic.",
+    "category": "Backend Design",
+    "order": 3,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "serialization-and-deserialization",
+    "title": "Serialization & JSON Fundamentals",
+    "description": "Understanding how applications communicate across different languages using serialization, deserialization, and JSON.",
+    "category": "Backend Design",
+    "order": 4,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "authentication-and-authorization",
+    "title": "Authentication & Authorization",
+    "description": "A complete beginner-to-advanced guide to proving identity, controlling access, and building secure backend systems.",
+    "category": "Backend Design",
+    "order": 5,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "data-validation",
+    "title": "Data Validation in Backend Systems",
+    "description": "A complete beginner-to-advanced guide to data validation, transformation, and protecting backend systems from bad input.",
+    "category": "Backend Design",
+    "order": 6,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "api-request",
+    "title": "Request Lifecycle, Handler-Service-Repository, Middleware, and Context",
+    "description": "A deep beginner-to-advanced guide explaining how API requests flow through a backend using handlers, services, repositories, middlewares, and request context.",
+    "category": "Backend Design",
+    "order": 7,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "rest-api-and-architecture",
+    "title": "REST Architecture and Roy Fielding’s 6 Constraints",
+    "description": "A beginner-to-advanced guide to REST, its six architectural constraints, custom actions with POST, and design-first API thinking.",
+    "category": "Backend Design",
+    "order": 8,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "database-in-backend",
+    "title": "Persistence, Databases, and Postgres Data Types",
+    "description": "A deep beginner-to-advanced guide to persistence, databases, DBMSs, Postgres data types, JSON storage, and choosing the right types for real backend systems.",
+    "category": "Backend Design",
+    "order": 9,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "caching",
+    "title": "Caching Explained",
+    "description": "A deep beginner-to-advanced guide to caching, latency, cache strategies, eviction policies, and practical backend use cases.",
+    "category": "Backend Design",
+    "order": 10,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "background-task-queues",
+    "title": "Background Tasks and Task Queues",
+    "description": "A deep beginner-to-advanced guide to background tasks, task queues, workers, retries, and building responsive backend applications.",
+    "category": "Backend Design",
+    "order": 11,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "elastic-search",
+    "title": "Inverted Index and Super-Fast Search",
+    "description": "A deep beginner-to-advanced guide to search performance, inverted indexes, relevance scoring, and why search engines outperform traditional database scans.",
+    "category": "Backend Design",
+    "order": 12,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "errors",
+    "title": "Backend Errors",
+    "description": "Understanding backend error types, HTTP error codes, database failures, validation errors, external service failures, and configuration problems.",
+    "category": "Backend Design",
+    "order": 13,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "configuration-management",
+    "title": "Configuration Management - The DNA of Your Application",
+    "description": "A deep guide to configuration management in backend systems including environment variables, secrets management, feature flags, environment configuration, validation, and best practices for building secure and scalable applications.",
+    "category": "Backend Design",
+    "order": 14,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "logging-monitoring-and-observability",
+    "title": "A Beginner's Guide to Logging, Monitoring, and Observability",
+    "description": "Logging, monitoring, and observability are three interconnected practices that allow engineers to understand what is happening inside software systems. Logging records detailed events and errors, monitoring tracks system health through metrics and alerts, and observability combines logs, metrics, and traces to diagnose complex issues and understand why failures occur.",
+    "category": "Backend Design",
+    "order": 15,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "graceful-shutdown",
+    "title": "Graceful Shutdown",
+    "description": "Learn how backend servers shut down safely without losing data or interrupting active users by finishing ongoing work before terminating.",
+    "category": "Backend Design",
+    "order": 16,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "backend-security",
+    "title": "Backend Security Fundamentals",
+    "description": "A complete guide to backend security including injection attacks, password protection, authentication systems, and authorization vulnerabilities.",
+    "category": "Backend Design",
+    "order": 17,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "backend-scaling-and-performance-engineering",
+    "title": "Scaling and Performance Engineering",
+    "description": "Deep dive into backend performance engineering, bottleneck detection, database optimization, and architectural scaling strategies.",
+    "category": "Backend Design",
+    "order": 18,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "concurrency-and-parallelism",
+    "title": "Concurrency and Parallelism",
+    "description": "A deep conceptual guide explaining how backend systems handle multiple tasks using concurrency and parallelism, why most applications are I/O-bound, and the models used by modern runtimes.",
+    "category": "Backend Design",
+    "order": 19,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "design-a-chat-system",
+    "title": "Design a Chat System",
+    "description": "A production-grade high level design of a scalable chat system supporting one-to-one chat, group chat, real-time messaging, offline delivery, read receipts, typing indicators, media sharing, search, notifications, presence, and multi-region scale.",
+    "category": "Design",
+    "order": 1,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-complete-like-and-view-system",
+    "title": "Design a Complete Like and View System",
+    "description": "A complete production-grade high-level design for a universal engagement system that powers likes, views, reactions, and counters across platforms like YouTube, Instagram, and similar media products, covering idempotent writes, real-time counters, anti-abuse, event streaming, caching, sharding, analytics, ranking signals, and multi-region scale.",
+    "category": "Design",
+    "order": 2,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-live-streaming-service",
+    "title": "Design a Live Streaming Service for Global Sports Broadcasting",
+    "description": "A deeper production-grade architecture for a global live sports streaming platform, with dedicated sections on HLS vs DASH vs CMAF, low-latency streaming, CDN architecture, DRM systems, and multi-region failover.",
+    "category": "Design",
+    "order": 3,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-real-time-location-tracking-system-for-ride-hailing-and-delivery-platforms",
+    "title": "Design a Real-Time Location Tracking System for Ride-Hailing and Delivery Platforms",
+    "description": "A complete production-grade high-level design for a real-time location tracking system like Uber, Zomato, or Grab, covering GPS ingestion, live location streaming, driver and rider tracking, ETA computation, map matching, geofencing, dispatch, caching, event streaming, multi-region scale, and fault tolerance.",
+    "category": "Design",
+    "order": 4,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-complete-stock-brokerage-platform",
+    "title": "Design a Complete Stock Brokerage Platform Like Zerodha",
+    "description": "A complete production-grade high-level design of a stock brokerage platform covering account opening, KYC, order management, risk checks, market data, trading terminal, portfolio, holdings, funds, ledger, corporate actions, alerts, analytics, and multi-market scale.",
+    "category": "Design",
+    "order": 5,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-reddit-style-nested-infinite-comment-system",
+    "title": "Design a Reddit-Style Nested Infinite Comment System",
+    "description": "A complete production-grade system design for a Reddit-like nested infinite comment system, covering comment trees, infinite depth, sorting, pagination, voting, moderation, caching, search, real-time updates, sharding, and large-scale distributed design.",
+    "category": "Design",
+    "order": 6,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-google-drive",
+    "title": "Design Google Drive",
+    "description": "A complete production-grade high-level design of a cloud file storage and collaboration platform like Google Drive, covering file ingestion, object storage, metadata, permissions, sharing, shared drives, version history, sync engines, offline access, search, previews, multi-region replication, and real-time collaboration at scale.",
+    "category": "Design",
+    "order": 7,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-instagram",
+    "title": "Design a Complete Instagram-Like Social Media System",
+    "description": "A complete production-grade high-level design for an Instagram-like social media platform covering user profiles, follow graph, posts, stories, reels, feeds, explore, likes, comments, direct messages, notifications, search, media processing, ranking, caching, moderation, and multi-region scale.",
+    "category": "Design",
+    "order": 8,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-netflix",
+    "title": "Design Netflix",
+    "description": "A complete production-grade high-level design of a global video streaming platform like Netflix, covering ingestion, transcoding, adaptive playback, Open Connect CDN delivery, recommendations, search, analytics, caching, microservices, multi-region resilience, security, and billion-scale traffic handling.",
+    "category": "Design",
+    "order": 9,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-youtube",
+    "title": "Design YouTube",
+    "description": "A complete high-level design of a scalable YouTube-like video platform covering video upload, transcoding, streaming, CDN delivery, search, recommendations, comments, subscriptions, notifications, analytics, and multi-region scale.",
+    "category": "Design",
+    "order": 10,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-payment-system",
+    "title": "Design a Complete Online Payment System",
+    "description": "A production-grade, internet-scale architecture for an online payment platform supporting card and wallet payments, authorization, capture, refunds, payouts, ledgers, fraud detection, reconciliation, chargebacks, webhooks, multi-region reliability, and PCI-grade security.",
+    "category": "Design",
+    "order": 11,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-realtime-ai-chat-system",
+    "title": "Design a ChatGPT-Style Real-Time AI Chat System",
+    "description": "A deeper production-grade architecture for a ChatGPT or Gemini-like conversational AI platform, with dedicated sections on LLM serving internals, KV cache and batching, RAG architecture, agent/tool execution, memory design, and multi-region GPU orchestration.",
+    "category": "Design",
+    "order": 12,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-realtime-game-leaderboard",
+    "title": "Design a Real-Time Game Leaderboard",
+    "description": "A production-grade, internet-scale design for a real-time game leaderboard with low-latency score updates, ranking queries, push-based live updates, Redis sorted sets, Kafka-based ingestion, anti-cheat validation, and multi-region resilience.",
+    "category": "Design",
+    "order": 13,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-search-engine-like-google",
+    "title": "Design a Complete Search Engine Like Google",
+    "description": "A production-grade, internet-scale architecture for a complete search engine covering web crawling, document parsing, indexing, ranking, query serving, autocomplete, freshness, spam detection, caching, multi-region scale, and fault tolerance.",
+    "category": "Design",
+    "order": 14,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-a-url-shortner",
+    "title": "Design a URL Shortener",
+    "description": "A staff-level production architecture for a URL shortener, with dedicated deep dives on Base62 ID generation, distributed sharding, Redis cluster topology, CDN redirect caching, analytics schema, and multi-region failover.",
+    "category": "Design",
+    "order": 15,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-an-ecommerce-portal",
+    "title": "Design a Complete Amazon-Scale E-Commerce System",
+    "description": "A production-grade, internet-scale design for a full e-commerce platform covering catalog, search, cart, checkout, payments, inventory, reservations, order management, shipping, returns, recommendations, notifications, fraud, and multi-region reliability.",
+    "category": "Design",
+    "order": 16,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "design-google-docs-realtime-collaboration",
+    "title": "Design Google Docs Real-Time Collaboration System",
+    "description": "A production-grade, internet-scale architecture for a real-time collaborative document editing platform similar to Google Docs, covering live editing, operational transformation / CRDT-style conflict handling, presence, versioning, comments, offline sync, permissions, multi-region scale, and fault tolerance.",
+    "category": "Design",
+    "order": 17,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "introduction",
+    "title": "Introduction to High Level Design (HLD)",
+    "description": "A comprehensive introduction to High Level Design in software engineering, explaining its purpose, core components, architectural thinking, scalability concerns, and how large-scale distributed systems are designed.",
+    "category": "High Level Design",
+    "order": 1,
+    "hasPractice": false,
+    "hasMindmap": false
+  },
+  {
+    "slug": "network-protocols",
+    "title": "Network Protocols in High Level Design (HLD)",
+    "description": "A comprehensive guide to network protocols used in distributed systems and backend architectures. Covers TCP, UDP, HTTP, HTTPS, WebSocket, gRPC, DNS, and other protocols with architecture diagrams, real-world examples, comparisons, and JavaScript examples.",
+    "category": "High Level Design",
+    "order": 2,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "cap-theorem",
+    "title": "CAP Theorem",
+    "description": "A comprehensive guide to the CAP Theorem in distributed systems, explaining consistency, availability, and partition tolerance with detailed examples, diagrams, and real-world scenarios.",
+    "category": "High Level Design",
+    "order": 3,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "pacelc",
+    "title": "PACELC Theorem",
+    "description": "A detailed explanation of the PACELC theorem in distributed systems and High Level Design, expanding on the CAP theorem and explaining how modern databases trade off consistency, availability, and latency during both network partitions and normal operations.",
+    "category": "High Level Design",
+    "order": 4,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "microservices-design-patterns",
+    "title": "Microservices Design Patterns",
+    "description": "A comprehensive guide to Microservices Design Patterns, covering architectural, data, communication, resiliency, and deployment patterns used in large-scale distributed systems with diagrams, examples, and JavaScript snippets.",
+    "category": "High Level Design",
+    "order": 5,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "saga-pattern",
+    "title": "Saga Pattern",
+    "description": "A deep dive into the Saga Pattern in distributed systems — how long-running transactions are handled across microservices without traditional ACID transactions, including orchestration vs choreography, compensation actions, failure handling, and real-world architectures.",
+    "category": "High Level Design",
+    "order": 6,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "consistent-hashing",
+    "title": "Consistent Hashing",
+    "description": "A comprehensive guide to Consistent Hashing in High Level Design (HLD), covering the motivation, working mechanism, virtual nodes, rebalancing, real-world systems, advantages, limitations, and implementation examples.",
+    "category": "High Level Design",
+    "order": 7,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "back-of-the-envelope-estimation",
+    "title": "Back-of-the-Envelope Estimation",
+    "description": "A comprehensive guide to Back-of-the-Envelope Estimation in High Level Design (HLD), explaining how engineers quickly approximate system scale, storage, bandwidth, and infrastructure needs using simple calculations and assumptions.",
+    "category": "High Level Design",
+    "order": 9,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "sql-vs-nosql",
+    "title": "SQL vs NoSQL Databases",
+    "description": "A comprehensive guide to SQL vs NoSQL databases in High Level Design (HLD), covering architecture, data models, scalability patterns, consistency models, and real-world system design considerations.",
+    "category": "High Level Design",
+    "order": 10,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "rate-limiter",
+    "title": "Rate Limiter",
+    "description": "A detailed guide to Rate Limiting in High Level Design (HLD), covering concepts, algorithms, architectures, distributed implementations, and real-world scenarios for controlling traffic and protecting systems from overload.",
+    "category": "High Level Design",
+    "order": 11,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "idempotent-api",
+    "title": "Idempotent APIs",
+    "description": "A complete deep dive into idempotency in distributed systems, why duplicate requests happen, how idempotent APIs prevent inconsistent state, HTTP semantics, idempotency keys, retry safety, payment systems, distributed architecture patterns, and real-world implementation strategies.",
+    "category": "High Level Design",
+    "order": 12,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "distributed-messaging-queue",
+    "title": "Distributed Messaging Queue",
+    "description": "A comprehensive guide to Distributed Messaging Queues in High Level Design (HLD), explaining how distributed systems use message queues to enable asynchronous communication, improve scalability, decouple services, and ensure reliable message delivery.",
+    "category": "High Level Design",
+    "order": 13,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "proxy-and-reverse-proxy",
+    "title": "Proxy and Reverse Proxy",
+    "description": "A deep dive into Proxy and Reverse Proxy in distributed systems and High Level Design (HLD), including architecture, request flow, real-world use cases, caching, security, load balancing, and implementation examples.",
+    "category": "High Level Design",
+    "order": 14,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "load-balancers",
+    "title": "Load Balancers",
+    "description": "A complete deep dive into Load Balancers — how they distribute traffic, improve scalability and reliability, different algorithms, Layer 4 vs Layer 7 balancing, reverse proxies, health checks, sticky sessions, global load balancing, and real-world system design strategies.",
+    "category": "High Level Design",
+    "order": 15,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "distributed-caching",
+    "title": "Distributed Caching",
+    "description": "A comprehensive guide to Distributed Caching in High Level Design (HLD), including architecture, benefits, cache eviction strategies, consistency models, real-world examples, and system design considerations.",
+    "category": "High Level Design",
+    "order": 16,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "caching-strategies",
+    "title": "Caching in Distributed Systems",
+    "description": "A comprehensive deep dive into caching strategies, cache layers, eviction policies, and caching patterns used in high-scale distributed systems to reduce latency, improve throughput, and reduce database load.",
+    "category": "High Level Design",
+    "order": 17,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "distributed-transaction",
+    "title": "Distributed Transactions",
+    "description": "A comprehensive guide to Distributed Transactions in High Level Design (HLD), explaining how multiple independent services coordinate a single logical transaction, the challenges of maintaining consistency across distributed systems, and patterns like Two-Phase Commit (2PC) and Saga.",
+    "category": "High Level Design",
+    "order": 18,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "database-indexing",
+    "title": "Database Indexing",
+    "description": "A comprehensive guide to Database Indexing in High Level Design (HLD), covering how indexes improve query performance, index data structures, types of indexes, trade-offs, and real-world system design considerations.",
+    "category": "High Level Design",
+    "order": 19,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "concurrency-control",
+    "title": "Concurrency Control",
+    "description": "A comprehensive guide to Concurrency Control in High Level Design (HLD), covering race conditions, locking strategies, optimistic vs pessimistic approaches, distributed concurrency, real-world systems, and implementation strategies.",
+    "category": "High Level Design",
+    "order": 20,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "jwt",
+    "title": "JWT Authentication",
+    "description": "A comprehensive guide to JSON Web Token (JWT) authentication — how stateless authentication works, JWT structure, signing algorithms, token lifecycle, security considerations, refresh tokens, and real-world architecture patterns used in distributed systems.",
+    "category": "High Level Design",
+    "order": 21,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "oauth",
+    "title": "OAuth (Open Authorization)",
+    "description": "A comprehensive guide to OAuth, explaining how modern applications securely delegate access without sharing passwords. Covers authorization flows, components, tokens, real-world examples, architecture diagrams, and JavaScript implementations.",
+    "category": "High Level Design",
+    "order": 22,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "cryptography",
+    "title": "Cryptography in High Level Design",
+    "description": "A deep dive into cryptography in distributed systems and High Level Design, covering symmetric encryption, asymmetric encryption, Diffie-Hellman key exchange, digital signatures, and how modern large-scale systems secure data in transit and at rest.",
+    "category": "High Level Design",
+    "order": 23,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "thundering-herd-effect",
+    "title": "Thundering Herd Effect",
+    "description": "A detailed guide to the Thundering Herd Effect in High Level Design (HLD), including causes, system impact, architecture patterns to mitigate it, and real-world distributed system scenarios.",
+    "category": "High Level Design",
+    "order": 24,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "api-gateway",
+    "title": "API Gateway",
+    "description": "A comprehensive guide to API Gateways, explaining their role in modern distributed systems, request routing, authentication, rate limiting, caching, and how they simplify client-service communication.",
+    "category": "High Level Design",
+    "order": 25,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "service-mesh",
+    "title": "Service Mesh",
+    "description": "A detailed guide to Service Mesh in High Level Design (HLD), including architecture, components, traffic management, observability, security, and real-world distributed system scenarios.",
+    "category": "High Level Design",
+    "order": 26,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "dns",
+    "title": "Domain Name System (DNS)",
+    "description": "A comprehensive guide to the Domain Name System (DNS) in High Level Design (HLD), explaining how the internet translates human-readable domain names into IP addresses, the distributed architecture of DNS, caching mechanisms, resolution flow, and scaling strategies used across the internet.",
+    "category": "High Level Design",
+    "order": 27,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "event-driven-architecture",
+    "title": "Event Driven Architecture (EDA)",
+    "description": "A deep technical guide to Event Driven Architecture in distributed systems including concepts, components, message brokers, event flow, scaling strategies, patterns, failure handling, and real-world architectures.",
+    "category": "High Level Design",
+    "order": 28,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "dual-write-problem",
+    "title": "Dual Write Problem",
+    "description": "A comprehensive guide to the Dual Write Problem in High Level Design (HLD), explaining why it occurs, the consistency risks it creates, and architectural patterns such as Transactional Outbox, Change Data Capture, and Event Sourcing used to solve it.",
+    "category": "High Level Design",
+    "order": 29,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "bulk-head-pattern",
+    "title": "Bulkhead Pattern",
+    "description": "A comprehensive guide to the Bulkhead Pattern in High Level Design (HLD), explaining how distributed systems isolate failures and protect critical resources from cascading failures.",
+    "category": "High Level Design",
+    "order": 30,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "retry-pattern",
+    "title": "Retry Pattern",
+    "description": "A comprehensive deep dive into the Retry Pattern in distributed systems — why retries are needed, transient vs permanent failures, retry strategies, exponential backoff, jitter, idempotency, retry storms, and real-world production implementations.",
+    "category": "High Level Design",
+    "order": 31,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "circuit-breaker",
+    "title": "Circuit Breaker Pattern",
+    "description": "A comprehensive guide to the Circuit Breaker pattern in High Level Design (HLD), explaining how distributed systems prevent cascading failures and maintain resilience when dependent services fail.",
+    "category": "High Level Design",
+    "order": 32,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "high-availability-system",
+    "title": "High Availability Systems - Active-Active and Active-Passive Architectures",
+    "description": "A comprehensive guide to high availability system design, focusing on Active-Active and Active-Passive architectures, how they work, their trade-offs, failover strategies, load balancing, replication, and real-world production patterns used in large distributed systems.",
+    "category": "High Level Design",
+    "order": 33,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "change-data-capture",
+    "title": "Change Data Capture (CDC)",
+    "description": "A deep dive into Change Data Capture (CDC) — how systems stream database changes to other services in real time, including architecture patterns, implementation strategies, event pipelines, and real-world distributed system use cases.",
+    "category": "High Level Design",
+    "order": 34,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "cdn",
+    "title": "Content Delivery Network (CDN)",
+    "description": "A deep dive into Content Delivery Networks (CDN) — how they work, why they are critical for large-scale systems, CDN architecture, caching mechanisms, request routing, edge computing, cache invalidation, and real-world system design considerations.",
+    "category": "High Level Design",
+    "order": 35,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "command-query-responsibility-segregation",
+    "title": "Command Query Responsibility Segregation (CQRS)",
+    "description": "A deep dive into the CQRS pattern — separating read and write operations, architecture, benefits, challenges, event sourcing integration, scaling strategies, and real-world distributed system examples.",
+    "category": "High Level Design",
+    "order": 36,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "throughput-and-latency",
+    "title": "Throughput and Latency",
+    "description": "A deep dive into Throughput and Latency in distributed systems and High Level Design, explaining what they mean, how they differ, how they interact, measurement techniques, performance trade-offs, real-world system examples, and optimization strategies.",
+    "category": "High Level Design",
+    "order": 37,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "long-polling-vs-server-sent-events",
+    "title": "Long Polling vs Server-Sent Events (SSE)",
+    "description": "A deep dive into Long Polling and Server-Sent Events (SSE) as real-time communication techniques used as alternatives to WebSockets, including architecture, request flows, performance trade-offs, scaling considerations, and real-world use cases.",
+    "category": "High Level Design",
+    "order": 38,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "outbox-pattern",
+    "title": "Outbox Pattern",
+    "description": "A detailed deep dive into the Outbox Pattern — a reliable way to publish events from a database transaction to message brokers without the dual write problem. Includes architecture, workflow, failure scenarios, polling vs log-based approaches, and real-world distributed system usage.",
+    "category": "High Level Design",
+    "order": 39,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "geospatial-design",
+    "title": "Geospatial System Design",
+    "description": "A deep dive into geospatial indexing and querying using Quadtrees, Geohashing, and Google S2. Explains how large-scale systems like ride-sharing and mapping platforms efficiently store and query location data at global scale.",
+    "category": "High Level Design",
+    "order": 40,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "distributed-id-generation",
+    "title": "Distributed ID Generation",
+    "description": "A comprehensive guide to distributed ID generation in large-scale systems, covering why unique IDs are hard in distributed environments, common strategies like UUID, database sequences, Twitter Snowflake, and modern approaches used by large-scale platforms.",
+    "category": "High Level Design",
+    "order": 41,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "serverless-architecture",
+    "title": "Serverless-First Architecture",
+    "description": "A deep dive into the Serverless-First approach using Lambda/FaaS for event-driven, cost-efficient scaling. Covers architecture, execution model, event sources, cold starts, scaling behavior, cost model, real-world systems, and design best practices.",
+    "category": "High Level Design",
+    "order": 42,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-introduction",
+    "title": "Introduction to Low Level Design (LLD)",
+    "description": "A detailed introduction to Low Level Design, its purpose, scope, and relationship with HLD and DSA.",
+    "category": "Low Level Design",
+    "order": 1,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-oop-concepts",
+    "title": "Object Oriented Programming (OOP)",
+    "description": "A detailed and beginner-friendly guide to OOP, including history, need, classes and objects, pillars, access modifiers, inheritance types with Mermaid diagrams, polymorphism, and the diamond problem.",
+    "category": "Low Level Design",
+    "order": 2,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-uml-diagrams",
+    "title": "UML Diagrams",
+    "description": "A detailed guide to UML diagrams, including structural and behavioral diagrams, class relationships, associations, sequence diagrams, activity diagrams, state diagrams, and common UML notations used in LLD.",
+    "category": "Low Level Design",
+    "order": 3,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-solid-principles",
+    "title": "SOLID Principles",
+    "description": "A detailed guide to the SOLID principles with real-world problems, explanations, diagrams, and examples in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 4,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-strategy-design-pattern",
+    "title": "Strategy Pattern",
+    "description": "A detailed guide to the Strategy Pattern, why inheritance can become rigid, how composition solves changing behavior, and how to apply interchangeable algorithms in real systems.",
+    "category": "Low Level Design",
+    "order": 5,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-factory-design-pattern",
+    "title": "Factory Design Pattern",
+    "description": "A detailed guide to the Factory family of patterns, including Simple Factory, Factory Method, and Abstract Factory, with examples, diagrams, comparisons, and implementation ideas.",
+    "category": "Low Level Design",
+    "order": 6,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-singleton-design-pattern",
+    "title": "Singleton Design Pattern",
+    "description": "A detailed guide to the Singleton pattern, including its purpose, implementation, thread safety, initialization strategies, use cases, and code examples in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 7,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-observer-design-pattern",
+    "title": "Observer Design Pattern",
+    "description": "A detailed guide to the Observer pattern, including its purpose, working model, polling vs push, subject-observer roles, real-world examples, benefits, drawbacks, and implementation in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 8,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-command-design-pattern",
+    "title": "Command Design Pattern",
+    "description": "A detailed guide to the Command pattern, including request encapsulation, invoker/receiver/client roles, undo/redo, queues, macros, and code examples in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 9,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-adapter-design-pattern",
+    "title": "Adapter Design Pattern",
+    "description": "A detailed guide to the Adapter pattern, including its purpose, real-world analogy, structure, object adapter vs class adapter, use cases, diagrams, and implementation in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 10,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-facade-design-pattern",
+    "title": "Facade Design Pattern",
+    "description": "A detailed guide to the Facade pattern, including its purpose, structure, benefits, real-world analogy, principle of least knowledge, comparison with Adapter, and implementation in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 11,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-composite-design-pattern",
+    "title": "Composite Design Pattern",
+    "description": "A detailed guide to the Composite pattern, including part-whole hierarchies, file system analogy, component-leaf-composite roles, recursion, benefits, drawbacks, real-world examples, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 12,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-template-design-pattern",
+    "title": "Template Method Design Pattern",
+    "description": "A detailed guide to the Template Method pattern, including fixed algorithm structure, customizable steps, hooks, real-world examples, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 13,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-chain-of-responsibility-design-pattern",
+    "title": "Chain of Responsibility Design Pattern",
+    "description": "A detailed guide to the Chain of Responsibility pattern, including ATM analogy, request flow, handler chain structure, benefits, real-world use cases, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 15,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-bridge-design-pattern",
+    "title": "Bridge Design Pattern",
+    "description": "A detailed guide to the Bridge pattern, including class explosion, abstraction vs implementation, independent hierarchies, real-world examples, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 16,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-builder-design-pattern",
+    "title": "Builder Design Pattern",
+    "description": "A detailed guide to the Builder pattern, including telescoping constructors, mutable setters, immutability, method chaining, step builder, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 17,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-proxy-design-pattern",
+    "title": "Proxy Design Pattern",
+    "description": "A detailed guide to the Proxy pattern, including direct vs indirect access, virtual proxy, protection proxy, remote proxy, structure, benefits, drawbacks, real-world examples, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 17,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-iterator-design-pattern",
+    "title": "Iterator Design Pattern",
+    "description": "A detailed guide to the Iterator Design Pattern with real-world analogies, UML diagrams, flowcharts, examples in Java/C++/Python, internal working, benefits, drawbacks, and comparisons.",
+    "category": "Low Level Design",
+    "order": 18,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-flyweight-design-pattern",
+    "title": "Flyweight Design Pattern",
+    "description": "A detailed guide to the Flyweight pattern, including intrinsic and extrinsic state, memory optimization, factory reuse, immutability, real-world examples, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 19,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-state-design-pattern",
+    "title": "State Design Pattern",
+    "description": "A detailed guide to the State pattern, including state-driven behavior, vending machine example, state transitions, UML diagrams, comparisons, benefits, drawbacks, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 20,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-mediator-design-pattern",
+    "title": "Mediator Design Pattern",
+    "description": "A detailed guide to the Mediator pattern, including centralized communication, chat room example, loose coupling, UML diagrams, real-world use cases, comparisons, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 21,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-prototype-design-pattern",
+    "title": "Prototype Design Pattern",
+    "description": "A detailed guide to the Prototype pattern, including cloning, copy constructors, shallow vs deep copy, prototype registry, real-world examples, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 22,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-visitor-design-pattern",
+    "title": "Visitor Design Pattern",
+    "description": "A complete and detailed guide to the Visitor Design Pattern including double dispatch, accept/visit flow, UML diagrams, real-world examples, comparisons, advantages, drawbacks, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 23,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-momento-design-pattern",
+    "title": "Memento Design Pattern",
+    "description": "A detailed guide to the Memento pattern, including state snapshots, undo/redo, rollback, checkpoints, originator/caretaker/memento roles, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 24,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "lld-anti-and-null-design-pattern",
+    "title": "Anti-Patterns and Null Object Pattern",
+    "description": "A detailed guide to common anti-patterns in software design and the Null Object pattern, including spaghetti code, God object, hard coding, DRY violation, gold plating, null checks, UML diagrams, and implementations in C++, Java, and Python.",
+    "category": "Low Level Design",
+    "order": 25,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "sitemap-robots-web-manifest",
+    "title": "Sitemap, Robots.txt, and Web Manifest",
+    "description": "A deep technical guide to sitemap.xml, robots.txt, and site.webmanifest — how search engines crawl your site, how bots are controlled, and how websites become installable PWAs.",
+    "category": "SEO",
+    "order": 1,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "cross-origin-resource-sharing",
+    "title": "Cross-Origin Resource Sharing (CORS)",
+    "description": "A deep dive into how browsers securely allow controlled cross-origin HTTP requests using CORS headers, preflight requests, and origin validation.",
+    "category": "Web Security",
+    "order": 1,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "cross-site-request-forgery",
+    "title": "Cross-Site Request Forgery (CSRF)",
+    "description": "A detailed explanation of CSRF attacks, how they exploit browser cookie behavior, and how modern web applications prevent them using tokens, SameSite cookies, and origin validation.",
+    "category": "Web Security",
+    "order": 2,
+    "hasPractice": true,
+    "hasMindmap": true
+  },
+  {
+    "slug": "content-security-policy",
+    "title": "Content Security Policy (CSP)",
+    "description": "A comprehensive guide to Content Security Policy (CSP), how it protects applications from XSS and injection attacks, how browsers enforce it, and how to configure it safely in production systems.",
+    "category": "Web Security",
+    "order": 3,
+    "hasPractice": true,
+    "hasMindmap": true
+  }
+]
